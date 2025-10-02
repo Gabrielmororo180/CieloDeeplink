@@ -1,0 +1,43 @@
+package CieloDeeplink;
+
+{$R *.res}
+{$R *.dres}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  fmx;
+
+contains
+  Cielo.Deeplink.Android in 'src\Cielo.Deeplink.Android.pas',
+  Cielo.Deeplink in 'src\Cielo.Deeplink.pas',
+  Cielo.Deeplink.Types in 'src\Cielo.Deeplink.Types.pas',
+  Cielo.Deeplink.Payment in 'src\Cielo.Deeplink.Payment.pas',
+  Cielo.Deeplink.Cancel in 'src\Cielo.Deeplink.Cancel.pas',
+  Cielo.Deeplink.Print in 'src\Cielo.Deeplink.Print.pas';
+
+end.
