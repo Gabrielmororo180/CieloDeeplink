@@ -1,6 +1,15 @@
 # CieloDeeplink
 Component CieloDeeplink for the Delphi
 
+**Instalação**
+
+- Install no CieloDeeplink.dpk
+- Adicione o library
+
+```
+    /src/
+```
+
 **Integração via Deeplink**
 
 - Garantir a compatibilidade com o Android 10 (permissões, notificações, criação de intents, etc)
@@ -28,5 +37,6 @@ Os nomes “response” e “order” podem ser substituídos pelo que fizer sen
 ```html
 <meta-data
     android:name="cs_integration_type"
-    android:value="uri" />
+    android:value="uri"
+ />
 ```
