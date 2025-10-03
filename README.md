@@ -1,6 +1,11 @@
 # CieloDeeplink
 Component CieloDeeplink for the Delphi
 
+**Integrado**
+- Pagamento
+- Cancelamento
+- Impressão
+  
 **Instalação**
 
 - Install no CieloDeeplink.dpk
@@ -14,7 +19,7 @@ Component CieloDeeplink for the Delphi
 
 - Garantir a compatibilidade com o Android 10 (permissões, notificações, criação de intents, etc)
 - Ter o minSdkVersion 24 e o targetSdkVersion 29
-- Se estiver utilizando a integração via DeepLink [confira a documentação aqui](https://developercielo.github.io/manual/cielo-lio#credenciais), ter o metadado declarado no arquivo AndroidManifest.xml
+- Para utilizar a integração via DeepLink [confira a documentação aqui](https://developercielo.github.io/manual/cielo-lio#credenciais), ter o metadado declarado no arquivo AndroidManifest.xml
 
 ## Manifest
 
